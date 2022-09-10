@@ -10,8 +10,8 @@ DATE = dt.datetime.now()
 knack_date = DATE.strftime("%m/%d/%Y")
 KNACK_BASE_URL = "https://api.knack.com/v1/objects/object_1/records"
 HEADERS = {
-    "X-Knack-Application-Id": "631ba9c565da6800219efb65",
-    "X-Knack-REST-API-KEY": "721b9060-6ff6-4606-a940-0fa91d65a5aa",
+    "X-Knack-Application-Id": "",
+    "X-Knack-REST-API-KEY": "",
     "content-type": "application/json"
 }
 
